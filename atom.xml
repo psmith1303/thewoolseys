@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>The Woolseys</title>
-    <link rel="alternate" type="text/html" href="http://thewoolseys.com/" />
-    <link rel="self" type="application/atom+xml" href="http://thewoolseys.com/atom.xml" />
+    <link rel="alternate" type="text/html" href="https://thewoolseys.com/" />
+    <link rel="self" type="application/atom+xml" href="https://thewoolseys.com/atom.xml" />
     <id>tag:,2008-09-10:/8</id>
     <updated>2009-08-05T09:23:53Z</updated>
     <subtitle>Notes from a distant land</subtitle>
-    <generator uri="http://www.sixapart.com/movabletype/">Movable Type Pro 4.23-en</generator>
 
 <entry>
     <title>it seems like a long time ago</title>
@@ -144,7 +143,7 @@
     
     
     <content type="html" xml:lang="en" xml:base="http://thewoolseys.com/">
-        <![CDATA[<p><img alt="Nora%20bridesmaid%20Fiji.jpg" src="http://thewoolseys.com/Nora%20bridesmaid%20Fiji.jpg" width="397" height="596" /></p>
+        <![CDATA[<p><img alt="Nora%20bridesmaid%20Fiji.jpg" src="https://thewoolseys.com/Nora%20bridesmaid%20Fiji.jpg" width="397" height="596" /></p>
 
 
 <p>Here she is Nora the "bridesmaid"</p>]]>
@@ -168,7 +167,7 @@
     
     
     <content type="html" xml:lang="en" xml:base="http://thewoolseys.com/">
-        <![CDATA[<p><img alt="20th%20Anniv%20Photo.jpg" src="http://thewoolseys.com/20th%20Anniv%20Photo.jpg" width="576" height="432" /></p>
+        <![CDATA[<p><img alt="20th%20Anniv%20Photo.jpg" src="https://thewoolseys.com/20th%20Anniv%20Photo.jpg" width="576" height="432" /></p>
 
 
 <p>Hi everyone</p>
@@ -204,7 +203,7 @@
     
     
     <content type="html" xml:lang="en" xml:base="http://thewoolseys.com/">
-        <![CDATA[<p><img alt="Nora%203rd%20Birthday.jpg" src="http://thewoolseys.com/Nora%203rd%20Birthday.jpg"  width="420" height="630"/></p>]]>
+        <![CDATA[<p><img alt="Nora%203rd%20Birthday.jpg" src="https://thewoolseys.com/Nora%203rd%20Birthday.jpg"  width="420" height="630"/></p>]]>
         <![CDATA[<p> We still can't believe it. Where did those 3 years go? </p>
 
 <p>Of all the pressies that she got (and there were a few) those earrings had pride of place. Thank you Keith and Marie.  (hopefully the photo is there)</p>
@@ -245,7 +244,7 @@
     
     
     <content type="html" xml:lang="en" xml:base="http://thewoolseys.com/">
-        <![CDATA[<p><img alt="DufRacing.jpg" src="http://thewoolseys.com/Duf%20racing.jpg" width="700" height="500" /></p>]]>
+        <![CDATA[<p><img alt="DufRacing.jpg" src="https://thewoolseys.com/Duf%20racing.jpg" width="700" height="500" /></p>]]>
         
     </content>
 </entry>
@@ -343,7 +342,7 @@
     
     
     <content type="html" xml:lang="en" xml:base="http://thewoolseys.com/">
-        <![CDATA[<p><img alt="Erin + info.jpg" src="http://thewoolseys.com/archives/Erin%20%2B%20info.jpg" width="640" height="480" /></p>]]>
+        <![CDATA[<p><img alt="Erin + info.jpg" src="https://thewoolseys.com/archives/Erin%20%2B%20info.jpg" width="640" height="480" /></p>]]>
         
     </content>
 </entry>
