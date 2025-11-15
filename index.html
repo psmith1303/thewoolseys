@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Future Website</title>
+    <title>The Future Website (Probably)</title>
     <style>
         /* Basic Reset and Body Styling */
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* A cheeky choice */
+            background-color: #ffe066; /* Bright, playful yellow */
+            color: #2c3e50;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -17,6 +17,10 @@
             margin: 0;
             padding: 20px;
             text-align: center;
+            /* Simple noise texture to feel less 'polished' */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 8px 8px;
         }
 
         /* Main Container Styling */
@@ -24,36 +28,41 @@
             max-width: 600px;
             padding: 40px;
             background-color: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 18px;
+            box-shadow: 8px 8px 0px #e74c3c; /* Big, playful shadow */
+            border: 3px solid #2c3e50;
         }
 
         /* Header Styling */
         h1 {
-            color: #5a7d9a; /* A sophisticated blue-gray */
-            font-size: 2.5em;
-            margin-bottom: 0.5em;
+            color: #c0392b; /* Punchy red */
+            font-size: 2.8em;
+            margin-bottom: 0.3em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
 
         /* Subtitle/Main Text Styling */
         p {
-            font-size: 1.1em;
+            font-size: 1.15em;
             line-height: 1.6;
             margin-bottom: 1.5em;
         }
 
         /* Emphasis on the 'one day' */
         .future {
-            font-weight: bold;
-            color: #e74c3c; /* A contrasting color for emphasis */
-            font-style: italic;
+            font-weight: 900;
+            color: #3498db; /* Electric blue */
+            text-decoration: underline wavy #3498db;
         }
 
         /* Footer/Witty Closing */
         .footer {
             margin-top: 30px;
-            font-size: 0.9em;
+            font-size: 1em;
             color: #7f8c8d;
+            border-top: 1px dashed #7f8c8d;
+            padding-top: 15px;
         }
     </style>
 </head>
@@ -61,26 +70,28 @@
 
     <div class="container">
         <h1>
-            🚧 Site Under Philosophical Consideration 🚧
+            ⏳ Error 404: Motivation Not Found ☕
         </h1>
         
         <p>
-            Welcome to the digital equivalent of an empty lot.
+            You've reached the placeholder for my next side project, which currently exists as 4 lines of commented-out code and a very ambitious Figma file.
         </p>
 
         <p>
-            This website will be **amazing**. It will feature dynamic content, groundbreaking design, and probably a contact form.
-            It's all plotted out in my head, which, according to my project manager (me), is a solid Phase 1 deliverable.
+            It will have features. It will solve problems. It will probably require a hefty amount of JavaScript and maybe a small loan to run the cloud functions.
         </p>
 
         <p>
-            Rest assured, the full experience will launch... <span class="future">one day.</span>
-            Until then, enjoy this minimalist, high-performance, and completely intentional blank slate.
+            But first, I need to finish watching that 3-hour YouTube tutorial, find where I put my reusable coffee cup, and figure out why my local environment keeps throwing an *'unexpected token'* error.
+        </p>
+        
+        <p>
+            Check back later. Like, *much* later. The finished site will launch <span class="future">the day after I fix that one little bug.</span>
         </p>
 
         <div class="footer">
             <p>
-                *Note: 'One day' is a temporal concept not directly tied to Earth's Gregorian calendar.
+                P.S. If you're a recruiter, this is a stunning example of my proficiency in **HTML and CSS**. Please see the impressive use of a box-shadow.
             </p>
         </div>
     </div>
