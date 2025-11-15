@@ -1,2 +1,12 @@
+# Apply the following rules to ALL bots (the asterisk is a wildcard)
 User-agent: *
+
+# Deny access to the entire site (root directory and all subdirectories/files)
+Disallow: /
+
+# Exclude common archiving services explicitly for good measure
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org
 Disallow: /
