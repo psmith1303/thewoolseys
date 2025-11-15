@@ -3,109 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Error: Page Not Found (Bummer!)</title>
+    <title>SYSTEM ERROR: 404 DATA NOT FOUND</title>
     <style>
-        /* 1990s Aesthetic Styling */
+        /* 1980s Terminal Aesthetic */
         body {
-            font-family: 'Courier New', Courier, monospace; /* Monospace is always retro */
-            background-color: #008080; /* Teal/Cyan: The classic Windows 95 desktop color */
-            color: #FFFF00; /* Bright yellow text for high contrast (and poor taste) */
-            text-align: center;
-            padding: 50px;
-            margin: 0;
-        }
-
-        .container {
-            max-width: 700px;
-            margin: 0 auto;
-            border: 5px dashed #C0C0C0; /* Silver/Gray dashed border */
+            font-family: 'Consolas', 'Monaco', 'Courier New', Courier, monospace;
+            background-color: #000000; /* Black screen */
+            color: #00FF00; /* Bright Green text (Classic CRT monitor) */
+            text-align: left;
             padding: 20px;
-            background-color: #000080; /* Dark Blue: The dreaded Blue Screen of Death color */
-            box-shadow: 10px 10px 0px #808080; /* Heavy 3D-ish shadow */
+            margin: 0;
+            overflow: hidden; /* Hide scrollbars for a cleaner terminal look */
         }
 
-        h1 {
-            color: #FF00FF; /* Electric Magenta */
-            text-transform: uppercase;
-            font-size: 2.5em;
-            border-bottom: 3px double #C0C0C0;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
+        .terminal-window {
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 5px;
+            border: 1px solid #00AA00; /* Thin green border */
+            min-height: 90vh;
         }
 
-        p {
-            font-size: 1.1em;
-            line-height: 1.5;
-            margin-bottom: 20px;
-        }
-
-        .error-code {
-            font-size: 1.5em;
-            color: #FF0000; /* Bright Red */
+        .header {
+            color: #FFFF00; /* Amber/Yellow for warnings */
+            border-bottom: 1px solid #00FF00;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
             font-weight: bold;
+        }
+
+        .error-line {
+            color: #FF0000; /* Red for high-priority errors */
+            font-weight: bold;
+            margin-top: 10px;
             margin-bottom: 10px;
-            /* Text blinking effect (simulating 90s HTML tags like <blink>) */
-            animation: blinker 1s linear infinite;
         }
 
-        /* Keyframe animation for the blinking text */
-        @keyframes blinker {
-            50% {
-                opacity: 0;
-            }
-        }
-
-        .link-style a {
-            color: #00FF00; /* Neon Green link color */
-            text-decoration: none;
+        .prompt {
+            color: #00FF00;
             font-weight: bold;
-            text-shadow: 1px 1px #000;
+            margin-top: 20px;
         }
 
-        .link-style a:hover {
-            color: #FFFFFF;
-            text-decoration: underline;
+        a {
+            color: #00FFFF; /* Bright Cyan links */
+            text-decoration: none;
+            cursor: pointer;
         }
 
-        .clipart {
-            margin-top: 25px;
-            /* Placeholder for a terrible 90s GIF/Clipart */
-            font-size: 3em;
-            line-height: 1;
+        a:hover {
+            background-color: #00FFFF;
+            color: #000000; /* Invert colors on hover */
+        }
+        
+        /* Simulating the cursor blink */
+        .cursor {
+            animation: blink-cursor 1s step-end infinite;
+            background-color: #00FF00;
+            color: #000000;
+            margin-left: 2px;
+            padding-right: 2px;
+        }
+
+        @keyframes blink-cursor {
+            from, to { visibility: hidden; }
+            50% { visibility: visible; }
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        
-        <div class="error-code">*** STOP ***</div>
-
-        <h1>
-            404: RESOURCE NOT FOUND
-        </h1>
-
-        <div class="clipart">
-            🌐🚧💾
+    <div class="terminal-window">
+        <div class="header">
+            [C:\] > **SYSTEM DIAGNOSTICS REPORT**
         </div>
 
-        <p>
-            **HOUSTON, WE HAVE A PROBLEM!** Your browser has encountered a serious difficulty. We regret to inform you that the file you have requested is **not available** on this WWW server. It may have moved to a new URL, or perhaps it was never there to begin with.
+        <p class="error-line">
+            *** FATAL ERROR 404: FILE NOT FOUND ***
         </p>
+
+        <p>
+            The requested file or directory (URI: **$404_REQUESTED_PAGE**) cannot be accessed.
+            <br>
+            **CAUSE:** Incomplete Site Restructuring Protocol (SRP 1.0).
+        </p>
+
+        <p>
+            **STATUS:** The current site architecture is in a highly volatile state. All data pointers are considered **unreliable**. The previous version was decommissioned to make way for the "Slick New Web 3.0" initiative, which is currently paused pending budgetary approval and the location of a missing floppy disk.
+        </p>
+
+        <p>
+            **RESOLUTION RECOMMENDATIONS:**
+            <br>
+            > ERROR_01: Verify syntax. Check for misplaced characters in requested URI.
+            <br>
+            > ERROR_02: Execute **GOTO** command to established root directory. Type **<a href="/">HOME</a>**.
+            <br>
+            > ERROR_03: Sit tight. Data retrieval may be delayed by up to 2.4 Kilobaud (Kbps).
+        </p>
+
+        <div class="error-line" style="margin-top: 30px;">
+            <span style="color: #FFFF00;">WARNING:</span> Repeated attempts to access non-existent resources may trigger a full system reboot.
+        </div>
         
-        <p>
-            The path you followed has led you to a **dead link**, possibly due to a serious "typo" error. Please consult your documentation or try the following steps to resolve this tragic computing error:
+        <p class="prompt">
+            C: \ > Await command...<span class="cursor">_</span>
         </p>
 
-        <p class="link-style">
-            <span style="color: #FF00FF;">&#9658;</span> Check the URL for embarrassing spelling mistakes. <br>
-            <span style="color: #FF00FF;">&#9658;</span> Hit the <a href="/">HOME PAGE</a> link and start over (Highly Recommended!). <br>
-            <span style="color: #FF00FF;">&#9658;</span> Wait patiently for 3-5 business days for the Internet to buffer.
-        </p>
-
-        <p style="margin-top: 30px; color: #C0C0C0;">
-            *If problems persist, try restarting your computer and cursing the modem.*
-        </p>
     </div>
 
 </body>
